@@ -1,0 +1,220 @@
+@import 'react-date-range/dist/styles.css'; 
+@import 'react-date-range/dist/theme/default.css'; 
+
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.navbg{
+    background-color: #003580;
+    color: white;
+}
+.headerTitle{
+   font-size: 50px;
+   font-weight: bolder;
+}
+.headerDesc{
+  font-size: 30px;
+}
+.header {
+    background-color: #003580;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .adminheader{
+    background-color: #003580;
+    color: white;
+   
+    justify-content: center;
+    position: relative;
+
+  }
+  
+  .headerContainer {
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+  }
+  
+  .headerContainer.listMode {
+    margin: 20px 0px 0px 0px;
+  }
+  
+  .headerList {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+  }
+  
+  .headerListItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .headerListItem.active {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  .headerDesc {
+    margin: 20px 0px;
+  }
+  
+  .headerBtn {
+    background-color: #0071c2;
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 7px;
+    cursor: pointer;
+  }
+  
+  .headerSearch {
+    height: 50px;
+    background-color: white;
+    border: 3px solid #febb02;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    max-width: 1024px;
+  }
+  
+  .headerIcon {
+    color: lightgray;
+  }
+  
+  .headerSearchItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .headerSearchInput {
+    border: none;
+    outline: none;
+  }
+  
+  .headerSearchText {
+    color: blue;
+    cursor: pointer;
+
+  }
+
+  
+  .date {
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+  }
+  
+
+
+  .options {
+    z-index: 2;
+    position: absolute;
+    top: 50px;
+    background-color: white;
+    color: gray;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+  }
+  
+  .optionItem {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+  }
+  
+  .optionCounter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color: black;
+  }
+  
+  .optionCounterButton {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #0071c2;
+    color: #0071c2;
+    cursor: pointer;
+    background-color: white;
+  }
+  
+  .optionCounterButton:disabled {
+    cursor: not-allowed;
+  } 
+
+  /* seperator  */
+  .seperator{
+    width: 30px;
+    height: 50px;
+  }
+
+  /* footer */
+  .footer{
+    width: 100%;
+    width: 1024px;
+    font-size: 12px;
+    background-color: #003580;
+    color: aliceblue;
+  }
+  
+  .fLists{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  
+  .fList{
+    list-style: none;
+    padding: 0;
+  }
+  
+  .fListItem{
+    margin-bottom: 10px;
+    color: #e2eaf6;
+    cursor: pointer;
+  }
+
+ .offercard{
+    width: 500px;
+    height: 200px;
+ }
+ .offercardimage{
+    width: 650px;
+    height: 200px;
+ }
+
+ h3{
+    
+        font-family: "Marck Script", cursive;
+        font-weight: 400;
+        font-style: normal;
+     
+      
+  
+ }
+ .regform{
+    background-color: #0071c2;
+    color: white;
+    height: 100vh;
+ }
+
+ .filter{
+  background-color: rgb(156, 203, 245);
+ }
+ .hoteloprice{
+
+ }
